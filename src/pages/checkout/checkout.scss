@@ -1,0 +1,13 @@
+
+.checkout-wrapper{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+
+    .cart-section{
+        flex: 2;
+    }
+    .payment-section{
+        flex: 1;
+    }
+}

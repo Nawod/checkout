@@ -1,0 +1,30 @@
+.cart-wrapper{
+
+    .cart-header{
+        margin-bottom: 2rem;
+        .title{
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .item-count{
+            font-size: 1.2rem;
+            color: gray;
+        }
+    }
+    .total-row{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 0;
+
+        .navigation{
+            font-weight: 500;
+            color: #02a7dc;
+        }
+        .total{
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    }
+}

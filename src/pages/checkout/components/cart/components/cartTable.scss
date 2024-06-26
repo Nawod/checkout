@@ -1,0 +1,83 @@
+.table-wrapper{
+    table{
+        width: 100%;
+        border-collapse: collapse;
+
+        tr{
+            border-bottom: 1px solid black;
+        }
+        thead{
+            tr{
+                th{
+                    padding: 0.8rem;
+                    text-align: left;
+                }
+            }
+        }
+        tbody{
+            tr{
+                .product-col{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    padding: 1rem 0;
+
+                    .img{
+                        width: 7rem;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .product-data{
+                        .product-name{
+                            font-size: 1.5rem;
+                            font-weight: 500;
+                        }
+                        .product-code{
+                            color: gray;
+                        }
+                    }
+                }
+                .quantity-col{
+                    .q-action{
+                        display: flex;
+                        align-items: center;
+                        gap: 0.5rem;
+
+                        .plus{
+                            font-size: 2rem !important;
+                        }
+                        .count{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+                .total-col{
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                }
+                .close{
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    cursor: pointer;
+                    display: table-cell;
+                }
+            }
+        }
+        .icon{
+            border-radius: 50%;
+            font-size: 3rem;
+            padding: 1rem;
+            cursor: pointer;
+            width: 1rem;
+            height: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            &:hover{
+            background: #a4a4a4;
+            }
+        }
+    }
+}
